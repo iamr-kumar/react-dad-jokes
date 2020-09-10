@@ -1,0 +1,77 @@
+.JokeList {
+    display: flex;
+    width: 80%;
+    height: 80%;
+}
+
+.JokeList-sidebar {
+    background: #9575cd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    -webkit-box-shadow: -9px 13px 40px -8px rgba(59,3,59,1);
+    -moz-box-shadow: -9px 13px 40px -8px rgba(59,3,59,1);
+    box-shadow: -9px 13px 40px -8px rgba(59,3,59,1);
+    z-index: 5;
+}
+
+.JokeList-title{
+    font-size: 4rem;
+    margin: 2rem;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+}
+
+.JokeList-title span {
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.JokeList-sidebar img {
+    width: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 1px 2px 59px -12px rgba(122,2,122,1);
+    -moz-box-shadow: 1px 2px 59px -12px rgba(122,2,122,1);
+    box-shadow: 1px 2px 59px -12px rgba(122,2,122,1);
+}
+
+.JokeList-jokes{
+    height: 90%;
+    background: #ffff;
+    align-self: center;
+    width: 70%;
+    overflow-y: scroll;
+    -webkit-box-shadow: 23px 20px 59px -28px rgba(36,36,36,1);
+    -moz-box-shadow: 23px 20px 59px -28px rgba(36,36,36,1);
+    box-shadow: 23px 20px 59px -28px rgba(36,36,36,1);
+}
+
+.JokeList-getbutton {
+    font-size: 1.5rem;
+    width: 50%;
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem 2rem;
+    background: rgb(34,193,195);
+    background: linear-gradient(120deg, rgba(34,193,195,1) 16%, rgba(253,45,182,1) 100%);
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    margin: 2rem;
+    cursor: pointer;
+    transition: 0.2s cubic-bezier(0.2, 1, 0.2, 1);
+    -webkit-box-shadow: 23px 20px 59px -12px rgba(36,36,36,1);
+    -moz-box-shadow: 23px 20px 59px -12px rgba(36,36,36,1);
+    box-shadow: 23px 20px 59px -12px rgba(36,36,36,1);
+}
+
+.JokeList-getbutton:hover{
+    transform: translateY(-2px);
+    -webkit-box-shadow: 23px 20px 59px -15px rgba(36,36,36,1);
+    -moz-box-shadow: 23px 20px 59px -15px rgba(36,36,36,1);
+    box-shadow: 23px 20px 59px -15px rgba(36,36,36,1);
+}
